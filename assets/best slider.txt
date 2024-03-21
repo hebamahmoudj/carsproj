@@ -1,0 +1,232 @@
+/*css*/
+.slider{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+img {
+  width: 150px;
+}
+
+.mainDiv {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin: 0;
+  margin: 11% auto;
+  background-color: rgb(11, 16, 37);
+}
+
+.mainDiv .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0px 0px 43px #999;
+  z-index: 9;
+  background-color: #fff;
+}
+
+.mainDiv .content img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 1rem auto;
+  display: block;
+  border: 6px solid var(--main-color);
+}
+
+.mainDiv h2 {
+  text-align: center;
+  margin: 30px 0;
+  color: var(--main-color);
+}
+
+
+/* right */
+
+.rightDiv,.leftDiv  {
+ 
+  width: 400px;
+  height: 400px;
+  margin: 0;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-color: #fff;
+  transform: rotate(-45deg);
+}
+.rightDiv{ animation: rightBack 1.5s ease both;}
+
+.leftDiv {  animation: leftBack 1.5s ease both;}
+
+/* content */
+
+.cont {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.mainDiv:hover .cont {
+  display: block;
+}
+
+.mainDiv:hover .rightDiv {
+  transform: rotate(45deg);
+  animation: rightAnim 1.5s ease both;
+}
+
+.mainDiv:hover .leftDiv {
+  transform: rotate(45deg);
+  animation: leftAnim 1.5s ease both;
+}
+
+@keyframes rightAnim {
+  0% {
+      transform: rotate(45deg);
+  }
+  50% {
+      transform: translate(300px, 0);
+  }
+  100% {
+      transform: translate(400px, 0);
+  }
+}
+
+@keyframes leftAnim {
+  0% {
+      transform: rotate(-45deg);
+  }
+  50% {
+      transform: translate(-300px, 0);
+  }
+  100% {
+      transform: translate(-400px, 0);
+  }
+}
+
+@keyframes rightBack {
+  100% {
+      transform: rotate(45deg);
+  }
+  50% {
+      transform: translate(300px, 0);
+  }
+  0% {
+      transform: translate(400px, 0);
+  }
+}
+
+@keyframes leftBack {
+  100% {
+      transform: rotate(-45deg);
+  }
+  50% {
+      transform: translate(-300px, 0);
+  }
+  0% {
+      transform: translate(-400px, 0);
+  }
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .mainDiv {
+    width: 200px;
+    height: 200px;
+  }
+  .mainDiv .content img {
+    width: 100px;
+    height: 100px;
+    margin: .5rem auto;
+  
+  }
+  
+  .mainDiv h2,  .rightDiv h5 ,.leftDiv h5{
+   
+    font-size: small;
+  }
+  
+  
+  /* right */
+  .rightDiv {
+    width: 200px;
+    height: 200px;
+   
+  }
+  
+  /* left */ 
+  .leftDiv {
+    width: 200px;
+    height: 200px;
+
+  }
+
+  @keyframes rightAnim {
+  
+    100% {
+        transform: translateY(210px);
+    }
+  }
+  
+  @keyframes leftAnim {
+ 
+    100% {
+        transform: translateY(-210px);
+    }
+  }
+  
+  @keyframes rightBack {
+ 
+    0% {
+        transform: translateY(210px);
+    }
+  }
+  
+  @keyframes leftBack {
+   
+    0% {
+        transform: translateY(-210px);
+
+    }
+  }
+  
+
+  
+}
+
+
+
+
+
+<!---html-->
+
+
+
+<section class="slider bg-dark" id="home">
+
+  <div class="mainDiv bg-dark" style="  letter-spacing: 1px;">
+    <div class="content">
+        <img src="./assets/black-background-bulb-close-up-716398.jpg" alt="bulb-close-up-img" title="bulb-close-up-img">
+        <h2>مرحبا بكم في المهندس  </h2>
+    </div>
+    <div class="rightDiv">
+        <div class="cont">
+            <img src="./assets/Picture1.png" alt="" class="w-100">
+            <h5 class=" flex-shrink-0 h4 ">جميع الخدمات الخاصة بتجهيزات الهياكل المعدنيه توريدات وصيانه</h5>
+  
+        </div>
+    </div>
+    <div class="leftDiv">
+        <div class="cont">
+          <img src="./assets/Picture11.png" alt="" class="w-100">
+          <h5 class=" flex-shrink-0 h4 ">تأتي  معايير الجوده والسلامه اولا</h5>
+  
+           
+        </div>
+    </div>
+  </div>
+  </section>
