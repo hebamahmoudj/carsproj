@@ -94,7 +94,7 @@
     var cardConatiner2 = [
         {
             "id": 1,
-            "imageSrc": ["./assets/Picture33.jpg", "./assets/Picture34.jpg", "./assets/Picture35.jpg"],
+            "imageSrc": ["../assets/Picture33.jpg", "../assets/Picture34.jpg", "../assets/Picture35.jpg"],
             "title": "تصنيع و تركيب وصيانة الابواب المتحركة العادية والكهربائية والاسوار المعدنية"
         },
         {
