@@ -120,43 +120,43 @@ const cardConatiner: Car[] =[
   
     {
         "id": 1,
-        "imageSrc": ["../assets/Picture33.jpg","../assets/Picture34.jpg","../assets/Picture35.jpg"],
+        "imageSrc": ["./assets/Picture33.jpg","./assets/Picture34.jpg","./assets/Picture35.jpg"],
         "title": "تصنيع و تركيب وصيانة الابواب المتحركة العادية والكهربائية والاسوار المعدنية"
     },
     {
         "id": 2,
-        "imageSrc": ["../assets/Picture21.jpg","../assets/Picture22.jpg","../assets/Picture23.jpg"],
+        "imageSrc": ["./assets/Picture21.jpg","./assets/Picture22.jpg","./assets/Picture23.jpg"],
         "title": "تصنيع وصيانة الكرفانات الثابتة والمحمولة مختلفة الاشكال والاحجام "
     },
     {
         "id": 3,
-        "imageSrc": ["../assets/Picture24.jpg","../assets/Picture25.jpg","../assets/Picture26.jpg"],
+        "imageSrc": ["./assets/Picture24.jpg","./assets/Picture25.jpg","./assets/Picture26.jpg"],
         "title": "تصنيع وصيانة السلالم الثابتة والمحمولة المناسبة لجميع التطبيقات والاستخدامات"
     },
     {
         "id": 4,
-        "imageSrc": ["../assets/Picture27.jpg","../assets/Picture28.jpg"],
+        "imageSrc": ["./assets/Picture27.jpg","./assets/Picture28.jpg"],
         "title": "تصنيع وتركيب محطات انتظار السيارات والركاب "
     },
     {
         "id": 5,
-        "imageSrc":[ "../assets/Picture19.jpg","../assets/Picture20.jpg"],
+        "imageSrc":[ "./assets/Picture19.jpg","./assets/Picture20.jpg"],
         "title": "تصنيع وصيانة وتركيب الجمالونات مختلفة الاشكال والاحجام وصيانتها"
     },
     {
         "id": 6,
-        "imageSrc":[ "../assets/Picture30.jpg","../assets/Picture31.jpg"],
+        "imageSrc":[ "./assets/Picture30.jpg","./assets/Picture31.jpg"],
         "title": "تصنيع وتركيب الخزانات بمختلف أنواعها وأحجامها (الافقية والرأسية ) مضغوطة وغير مضغوطة"
     },
    
     {
         "id": 7,
-        "imageSrc": ["../assets/Picture29.jpg"],
+        "imageSrc": ["./assets/Picture29.jpg"],
         "title": "تصنيع وتركيب وصيانة يافطات الدعايةوالاعلان"
     },
     {
         "id": 8,
-        "imageSrc": ["../assets/Picture32.jpg",],
+        "imageSrc": ["./assets/Picture32.jpg",],
         "title": "تصنيع وصيانة رامبات للتحميل على الترلات والسيارات "
     }
 ]
