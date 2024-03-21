@@ -15,12 +15,12 @@ const cardConatiner: Car[] =[
     
       {
           "id": 1,
-          "imageSrc": "./assets/Picture1.png",
+          "imageSrc": "../assets/Picture1.png",
           "title": "سيارة مجهزة ونش مرور"
       },
       {
           "id": 2,
-          "imageSrc": "./assets/Picture2.jpg",
+          "imageSrc": "../assets/Picture2.jpg",
           "title": "سيارة مجهزة اطفاء"
       },
       {
