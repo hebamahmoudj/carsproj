@@ -2,92 +2,92 @@
     var cardConatiner = [
         {
             "id": 1,
-            "imageSrc": "../assets/Picture1.png",
+            "imageSrc": "/assets/Picture1.png",
             "title": "سيارة مجهزة ونش مرور"
         },
         {
             "id": 2,
-            "imageSrc": "../assets/Picture2.jpg",
+            "imageSrc": "/assets/Picture2.jpg",
             "title": "سيارة مجهزة اطفاء"
         },
         {
             "id": 3,
-            "imageSrc": "../assets/Picture3.jpg",
+            "imageSrc": "/assets/Picture3.jpg",
             "title": "سيارة مجهزة لسحب الرواسب "
         },
         {
             "id": 4,
-            "imageSrc": "../assets/Picture4.jpg",
+            "imageSrc": "/assets/Picture4.jpg",
             "title": "سيارة مجهزة لانقاذ السيارات"
         },
         {
             "id": 5,
-            "imageSrc": "../assets/Picture5.jpg",
+            "imageSrc": "/assets/Picture5.jpg",
             "title": "سيارة مجهزة لجمع وكبس القمامة"
         },
         {
             "id": 6,
-            "imageSrc": "../assets/Picture6.jpg",
+            "imageSrc": "/assets/Picture6.jpg",
             "title": "سيارة مجهزة لكنس الشوارع"
         },
         {
             "id": 7,
-            "imageSrc": "../assets/Picture7.png",
+            "imageSrc": "/assets/Picture7.png",
             "title": "سيارة مجهزة انقاذ بونش."
         },
         {
             "id": 8,
-            "imageSrc": "../assets/Picture8.jpg",
+            "imageSrc": "/assets/Picture8.jpg",
             "title": "سيارة مجهزة بونش تلسكوبى"
         },
         {
             "id": 9,
-            "imageSrc": "../assets/Picture9.jpg",
+            "imageSrc": "/assets/Picture9.jpg",
             "title": "سيارة مجهزة نافورى"
         },
         {
             "id": 10,
-            "imageSrc": "../assets/Picture10.jpg",
+            "imageSrc": "/assets/Picture10.jpg",
             "title": "سيارة مجهزة بصندوق وونش "
         },
         {
             "id": 11,
-            "imageSrc": "../assets/Picture11.png",
+            "imageSrc": "/assets/Picture11.png",
             "title": "سيارة مجهزة بحزان لنقل السوائل"
         },
         {
             "id": 12,
-            "imageSrc": "../assets/Picture12.jpg",
+            "imageSrc": "/assets/Picture12.jpg",
             "title": "سيارة مجهزة بسلة"
         },
         {
             "id": 13,
-            "imageSrc": "../assets/Picture13.jpg",
+            "imageSrc": "/assets/Picture13.jpg",
             "title": "سيارة مجهزة اسعاف"
         },
         {
             "id": 14,
-            "imageSrc": "../assets/Picture14.jpg",
+            "imageSrc": "/assets/Picture14.jpg",
             "title": "سيارة مجهزة قلاب "
         },
         {
             "id": 15,
-            "imageSrc": "../assets/Picture15.jpg",
+            "imageSrc": "/assets/Picture15.jpg",
             "title": "سيارة مجهزة بصندوق"
         },
         {
             "id": 16,
-            "imageSrc": "../assets/Picture16.jpg",
+            "imageSrc": "/assets/Picture16.jpg",
             "title": "مقطورة قلاب"
         },
         {
             "id": 17,
-            "imageSrc": "../assets/Picture17.jpg",
+            "imageSrc": "/assets/Picture17.jpg",
             "title": "كلايشة مرور"
         },
         {
             "id": 18,
-            "imageSrc": "../assets/Picture18.jpg",
+            "imageSrc": "/assets/Picture18.jpg",
             "title": "حاجز مرور"
         }
     ];
